@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9ce1da68-d3d2-476f-be5a-c498db2c526a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/battle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ships/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ships/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/BattleManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/BattleManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/BattleResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Model/BattleResult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Model/Ship.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/play.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/play.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ships/lib/Model/RebelShip.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Model/RebelShip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ships/lib/Model/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Model/Ship.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ships/lib/Model/Ship.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="741">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ships/lib/Model/AbstractShip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ships/lib/Model/RebelShip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="38">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -43,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/ships/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -52,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/ships/battle.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
-              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -61,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/ships/lib/Service/Container.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -69,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ships/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="133">
+              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -87,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ships/lib/Service/ShipLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="950">
+              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -111,11 +115,12 @@
         <option value="$PROJECT_DIR$/ships/lib/container.php" />
         <option value="$PROJECT_DIR$/ships/lib/Container.php" />
         <option value="$PROJECT_DIR$/ships/battle.php" />
+        <option value="$PROJECT_DIR$/ships/index.php" />
+        <option value="$PROJECT_DIR$/ships/lib/Model/RebelShip.php" />
         <option value="$PROJECT_DIR$/ships/bootstrap.php" />
         <option value="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" />
-        <option value="$PROJECT_DIR$/ships/index.php" />
+        <option value="$PROJECT_DIR$/ships/lib/Model/AbstractShip.php" />
         <option value="$PROJECT_DIR$/ships/lib/Model/Ship.php" />
-        <option value="$PROJECT_DIR$/ships/lib/Model/RebelShip.php" />
       </list>
     </option>
   </component>
@@ -170,7 +175,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,19 +208,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552720764750</updated>
-      <workItem from="1552720765921" duration="19101000" />
+      <workItem from="1552720765921" duration="22018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19101000" />
+    <option name="totallyTimeSpent" value="22018000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09328358" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09328358" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -228,7 +241,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -263,21 +276,14 @@
     <entry file="file://$PROJECT_DIR$/ships/lib/Service/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ships/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ships/battle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -288,33 +294,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ships/lib/Service/ShipLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ships/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ships/lib/Model/Ship.php">
+    <entry file="file://$PROJECT_DIR$/ships/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ships/lib/Service/ShipLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ships/lib/Model/RebelShip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ships/lib/Model/Ship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ships/lib/Model/AbstractShip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20050125" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
