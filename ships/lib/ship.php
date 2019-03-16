@@ -2,6 +2,8 @@
 
 class Ship
 {
+    private $id;
+
     private $name;
 
     private $weaponPower = 0;
@@ -28,6 +30,9 @@ class Ship
         echo "Hello!";
     }
 
+    /**
+     * @return mixed
+     */
     public function getName()
     {
         return $this->name;
@@ -60,6 +65,10 @@ class Ship
         return $givenShip->strength > $this->strength;
     }
 
+    /**
+     * @param int $strength
+     * @throws Exception
+     */
     public function setStrength($strength)
     {
         if (!is_numeric($strength)) {
@@ -112,5 +121,22 @@ class Ship
     {
         $this->name = $name;
     }
+
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
 
 }
