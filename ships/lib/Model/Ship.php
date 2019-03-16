@@ -77,6 +77,9 @@ class Ship
         $this->strength = $strength;
     }
 
+    /**
+     * @return int
+     */
     public function getStrength()
     {
         return $this->strength;
@@ -138,5 +141,9 @@ class Ship
         $this->id = $id;
     }
 
+    public function getType()
+    {
+        return 'Empire';
+    }
 
 }
