@@ -1,5 +1,11 @@
 <?php
 
+namespace Service;
+
+use Model\AbstractShip;
+use Model\RebelShip;
+use Model\Ship;
+
 class ShipLoader
 {
     private $shipStorage;
@@ -14,7 +20,12 @@ class ShipLoader
      */
     public function getShips()
     {
-        $shipsData = $this->shipStorage->fetchAllShipsData();
+        try {
+            $shipsData = $this->shipStorage->fetchAllShipsData();
+        } catch (\PDOException $e) {
+            trigger_error('Database Exception! '.$e->getMessage());
+            $shipsData = [];
+        }
 
         $ships = [];
         foreach ($shipsData as $ship) {

@@ -6,6 +6,8 @@
  * Time: 09:46
  */
 
+namespace Service;
+
 interface ShipStorageInterface
 {
     /**

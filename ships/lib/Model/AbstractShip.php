@@ -6,6 +6,8 @@
  * Time: 22:25
  */
 
+namespace Model;
+
 abstract class AbstractShip
 {
     private $id;
@@ -68,12 +70,12 @@ abstract class AbstractShip
 
     /**
      * @param int $strength
-     * @throws Exception
+     * @throws \Exception
      */
     public function setStrength($strength)
     {
         if (!is_numeric($strength)) {
-            throw new Exception('Invalid strength passed'.$strength);
+            throw new \Exception('Invalid strength passed'.$strength);
         }
         $this->strength = $strength;
     }
@@ -126,4 +128,8 @@ abstract class AbstractShip
         $this->id = $id;
     }
 
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }

@@ -1,5 +1,10 @@
 <?php
 
+namespace Service;
+
+use Model\AbstractShip;
+use Model\BattleResult;
+
 class BattleManager
 {
     //    normal battle mode
@@ -66,7 +71,7 @@ class BattleManager
         return new BattleResult($usedJediPowers, $winningShip, $losingShip);
 
     }
- 
+
     public static function getAllBattleTypesWithDescription ()
     {
         return [
