@@ -5,6 +5,11 @@ $container = new Container($configuration);
 $shipLoader = $container->getShipLoader();
 $ships = $shipLoader->getShips();
 
+$brokenShip = new BrokenShip('Broken Ship');
+$ships[] = $brokenShip;
+
+$battleTypes = BattleManager::getAllBattleTypesWithDescription();
+
 $errorMessage = '';
 if (isset($_GET['error'])) {
     switch ($_GET['error']) {
@@ -112,6 +117,14 @@ if (isset($_GET['error'])) {
                             <?php endforeach; ?>
                         </select>
                         <br>
+                        <div class="text-center">
+                            <label for="battle_type">Battle Type</label>
+                            <select name="battle_type" id="battle_type" class="center-block form-control btn drp-dwn-width btn-default dropdown-toggle">
+                                <?php foreach ($battleTypes as $battleType => $typeText): ?>
+                                    <option value="<?php echo $battleType ?>"><?php echo $typeText; ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
                         <button class="btn btn-md btn-danger center-block" type="submit">Engage</button>
                     </form>
                 </div>

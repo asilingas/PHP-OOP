@@ -29,7 +29,8 @@ if ($ship1Quantity <= 0 || $ship2Quantity <= 0) {
 }
 
 $battleManager = $container->getBattleManager();
-$battleResult = $battleManager->battle($ship1, $ship1Quantity, $ship2, $ship2Quantity);
+$battleType = $_POST['battle_type'];
+$battleResult = $battleManager->battle($ship1, $ship1Quantity, $ship2, $ship2Quantity, $battleType);
 ?>
 
 <html>
@@ -88,13 +89,15 @@ $battleResult = $battleManager->battle($ship1, $ship1Quantity, $ship2, $ship2Qua
                     <?php endif; ?>
                 </p>
 
-                <h3>Ship Health</h3>
-                <dl class="dl-horizontal">
-                    <dt><?php echo $ship1->getName(); ?></dt>
-                    <dt><?php echo $ship1->getStrength(); ?></dt>
-                    <dt><?php echo $ship2->getName(); ?></dt>
-                    <dt><?php echo $ship2->getStrength(); ?></dt>
-                </dl>
+                <div>
+                    <h3>Ship Health</h3>
+
+                        <dt><?php echo $ship1->getName(); ?></dt>
+                        <dt><?php echo $ship1->getStrength(); ?></dt>
+                        <dt><?php echo $ship2->getName(); ?></dt>
+                        <dt><?php echo $ship2->getStrength(); ?></dt>
+
+                </div>
             </div>
             <a href="index.php"><p class="text-center"><i class="fa fa-undo"></i> Battle again</p></a>
         
