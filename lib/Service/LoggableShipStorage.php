@@ -23,7 +23,7 @@ class LoggableShipStorage implements ShipStorageInterface
         $ships = $this->shipStorage->fetchAllShipsData();
 
         $this->log(sprintf('Just fetched %s ships', count($ships)));
-
+ 
         return $ships;
     }
 

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ce1da68-d3d2-476f-be5a-c498db2c526a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/Model/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Model/Ship.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/Service/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/ShipLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ships/lib/Service/LoggableShipStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/ships/lib/Service/LoggableShipStorage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/ships/lib/Service/LoggableShipStorage.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
               </folding>
@@ -44,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ships/lib/Service/Container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -195,12 +190,12 @@
       <updated>1552720764750</updated>
       <workItem from="1552720765921" duration="22018000" />
       <workItem from="1552803113853" duration="19985000" />
-      <workItem from="1552893484504" duration="3823000" />
+      <workItem from="1552893484504" duration="5701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45826000" />
+    <option name="totallyTimeSpent" value="47704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,15 +430,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ships/lib/Service/Container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ships/lib/Service/LoggableShipStorage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
